@@ -1,0 +1,21 @@
+{
+    "name": "ctyurk15/urltester",
+    "description": "Test composer package",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Yurii Hrytsak",
+            "email": "test@test.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": "~5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.8.9"
+    },
+    "autoload": {
+        "classmap": ["src"]
+    }
+}
